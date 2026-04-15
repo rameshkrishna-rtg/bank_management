@@ -12,7 +12,8 @@ public class BankManagementApp {
     static int count =0;
     static boolean isTrue = true;
     static boolean condition = true;
-
+ public static void main(String[] args) throws SQLException {
+        int random_num= (int) (Math.random()*900000000)+100000000;
 
    
 
