@@ -14,8 +14,7 @@ public class BankManagementApp {
     static boolean condition = true;
 
 
-    public static void main(String[] args) throws SQLException {
-        int random_num= (int) (Math.random()*900000000)+100000000;
+   
 
             Connection connection = DriverManager.getConnection(DB_URL, DB_USER, DB_PASSWORD);
             System.out.println("Welcome to the Bank Management Console Application!");
