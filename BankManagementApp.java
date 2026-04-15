@@ -1,7 +1,4 @@
-package BankManagementApp;
 
-import java.sql.*;
-import java.util.Scanner;
 
 public class BankManagementApp {
     static Scanner scanner = new Scanner(System.in);
