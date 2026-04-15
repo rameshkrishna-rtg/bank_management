@@ -3,7 +3,15 @@ package BankManagementApp;
 
 import java.sql.*;
 import java.util.Scanner;
-
+public class BankManagementApp {
+    static Scanner scanner = new Scanner(System.in);
+    private static final String DB_URL = "jdbc:mysql://localhost:3306/bank_db";
+    private static final String DB_USER = "root";
+    private static final String DB_PASSWORD = "Shanadams1@";
+    private static Connection connection;
+    static int count =0;
+    static boolean isTrue = true;
+    static boolean condition = true;
 
 
     public static void main(String[] args) throws SQLException {
