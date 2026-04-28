@@ -1,8 +1,5 @@
 
-package BankManagementApp;
 
-import java.sql.*;
-import java.util.Scanner;
 public class BankManagementApp {
     static Scanner scanner = new Scanner(System.in);
     private static final String DB_URL = "jdbc:mysql://localhost:3306/bank_db";
